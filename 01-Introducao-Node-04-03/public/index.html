@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWIII | Data Explorer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;800&family=Inter:wght@400;600&display=swap');
+        
+        :root {
+            --bg: #0F172A;
+            --accent: #38BDF8;
+            --glass: rgba(30, 41, 59, 0.7);
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            background: var(--bg);
+            color: #F8FAFC;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background-image: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.15), transparent);
+        }
+
+        header {
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 3rem;
+            margin: 0;
+            background: linear-gradient(to bottom right, #38BDF8, #818CF8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            width: 100%;
+            max-width: 1000px;
+            padding: 2rem;
+        }
+
+        .api-card {
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .api-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            border-color: var(--accent);
+            box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+        }
+
+        .icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            margin: 0 0 0.5rem 0;
+            font-size: 1.5rem;
+        }
+
+        p {
+            color: #94A3B8;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .tag {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.25rem 0.75rem;
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent);
+            border-radius: 99px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Data Explorer</h1>
+        <p>Acesse os endpoints de dados do servidor Node.js</p>
+    </header>
+
+    <div class="grid">
+        <a href="/rota1/cadastro" class="api-card">
+            <span class="icon">👤</span>
+            <h2>Cadastro</h2>
+            <p>Lista de usuários cadastrados no sistema com idade e origem.</p>
+            <span class="tag">GET /cadastro</span>
+        </a>
+
+        <a href="/rota1/catalogo" class="api-card">
+            <span class="icon">📚</span>
+            <h2>Catálogo</h2>
+            <p>Explorar o catálogo completo de produtos e serviços disponíveis.</p>
+            <span class="tag">GET /catalogo</span>
+        </a>
+
+        <a href="/rota1/dados" class="api-card">
+            <span class="icon">📊</span>
+            <h2>Relatórios</h2>
+            <p>Dados técnicos e descrições estruturadas para processamento.</p>
+            <span class="tag">GET /dados</span>
+        </a>
+    </div>
+
+</body>
+</html>

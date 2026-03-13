@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Ana",
+        "idade": "22",
+        "altura": "1.66",
+        "pais": "Brasil"
+    },
+    {
+        "nome": "Bia",
+        "idade": "19",
+        "altura": "1,57",
+        "pais": "Brasil"
+    },
+    {
+        "nome": "Carla",
+        "idade": "25",
+        "altura": "1,75",
+        "pais": "Brasil"
+    }
+]
