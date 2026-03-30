@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento | Aura Joias</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+<body>
+    <header class="white main-header">
+        <h2 class="serif logo-text"><a href="/">Aura</a></h2>
+        <nav class="nav-menu">
+            <a href="/quemsou">Sobre Nós</a>
+            <a href="/produtos">Coleções</a>
+            <a href="/perguntas">Atendimento</a>
+        </nav>
+    </header>
+
+    <div class="breadcrumbs breadcrumb-faq">
+        <a href="/">Início</a>
+        <i data-lucide="chevron-right" class="icon-breadcrumb"></i>
+        <span>Atendimento</span>
+    </div>
+
+    <main class="faq-main reveal">
+        <div class="faq-header">
+            <h1 class="faq-title title-main">Como podemos<br>ajudar?</h1>
+            <p class="tagline">Atendimento exclusivo</p>
+        </div>
+
+        <div class="faq-list">
+            <div class="faq-item">
+                <div class="faq-question">
+                    Como é feita a certificação dos diamantes?
+                    <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Todos os nossos diamantes acima de 0.3 quilates são acompanhados por certificados
+                        GIA ou IGI, garantindo sua autenticidade, pureza e origem ética.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Vocês realizam ajustes de tamanho?
+                    <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Oferecemos ajuste de tamanho gratuito para todos os anéis em um período de até 30
+                        dias após a compra, garantindo o ajuste perfeito.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Qual o prazo de entrega para peças sob encomenda?
+                    <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Peças exclusivas e sob medida levam entre 4 a 6 semanas para serem finalizadas
+                        pelos nossos mestres joalheiros em Paris.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    As joias possuem garantia vitalícia?
+                    <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Sim, oferecemos garantia vitalícia contra qualquer defeito de fabricação e serviço
+                        de limpeza anual gratuito em qualquer uma de nossas boutiques.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="benefits-bar reveal mt-6">
+        <div class="benefit-item">
+            <i data-lucide="shield-check"></i>
+            <h4>Expedição Segura</h4>
+            <p>Entrega 100% segurada.</p>
+        </div>
+        <div class="benefit-item">
+            <i data-lucide="gem"></i>
+            <h4>Garantia Vitalícia</h4>
+            <p>Feito para durar.</p>
+        </div>
+        <div class="benefit-item">
+            <i data-lucide="award"></i>
+            <h4>Certificação</h4>
+            <p>Gemas éticas e puras.</p>
+        </div>
+    </section>
+
+    <div class="footer-bottom">
+        <p>© 2026 Aura Joias. Todos os direitos reservados.</p>
+        <p class="by">by: emilly budri bognar</p>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
