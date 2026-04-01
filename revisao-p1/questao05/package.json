@@ -1,0 +1,12 @@
+{
+  "name": "questao05",
+  "version": "1.0.0",
+  "description": "Sistema de exportação de lista de alunos FATEC — lê estudantes.csv e gera export_relatorio.txt.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "export": "node index.js"
+  },
+  "author": "Emilly Budri Bognar",
+  "license": "ISC"
+}

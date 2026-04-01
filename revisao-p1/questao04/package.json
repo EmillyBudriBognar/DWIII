@@ -1,0 +1,11 @@
+{
+  "name": "questao04",
+  "version": "1.0.0",
+  "description": "Roteador institucional Node.js — rotas /fatec, /fecap e tratamento de 404.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Emilly Budri Bognar",
+  "license": "ISC"
+}

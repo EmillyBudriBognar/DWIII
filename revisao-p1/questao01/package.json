@@ -1,0 +1,11 @@
+{
+  "name": "questao01",
+  "version": "1.0.0",
+  "description": "Sistema de configuração FATEC — leitura assíncrona de config.json com o módulo fs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Emilly Budri Bognar",
+  "license": "ISC"
+}

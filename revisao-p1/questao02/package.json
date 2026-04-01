@@ -1,0 +1,11 @@
+{
+  "name": "questao02",
+  "version": "1.0.0",
+  "description": "Sistema de log de laboratório FATEC — verifica e atualiza log.txt com fs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Emilly Budri Bognar",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+Relatório Gerado para FATEC - 01/04/2026
+=============================================
+
+Nome,RA
+Ana Clara Souza,1234567
+Bruno Ferreira,2345678
+Carla Mendonça,3456789
+Diego Alves,4567890
+Emilly Budri Bognar,5678901
+Felipe Rodrigues,6789012
+Gabriela Lima,7890123
+Henrique Costa,8901234
+Isabela Martins,9012345
+João Pedro Nunes,0123456

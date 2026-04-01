@@ -1,0 +1,11 @@
+{
+  "name": "questao03",
+  "version": "1.0.0",
+  "description": "Servidor Node.js com API de consulta acadêmica — rotas / e /instituicao.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Emilly Budri Bognar",
+  "license": "ISC"
+}
