@@ -15,6 +15,7 @@ O repositório está organizado em aulas práticas e projetos entregáveis.
 - **03-Atividade-Design-Patterns** — Atividade prática com padrões de projeto (Factory Method) em Node.js.
 - **projeto01** — Servidor HTTP sem framework com roteamento dinâmico e hierarquia de pastas.
 - **projeto02** — Sistema de extração de metadados de arquivos Markdown via RegEx.
+- **projeto04** — Sistema de validação de links em arquivos usando Node.js e fetch API.
 
 ---
 
@@ -33,6 +34,12 @@ Script Node.js que lê um arquivo Markdown e extrai referências técnicas (link
 - Leitura assíncrona com `fs/promises` e `async/await`.
 - Extração de nome e URL via RegEx.
 - Saída formatada no terminal com `chalk`.
+
+**Projeto 04 — Validação de Links em Arquivos**  
+Sistema de validação de links em arquivos usando Node.js, fetch API e tratamento de erros.
+- Leitura de arquivos Markdown e extração de links.
+- Validação do status HTTP das URLs usando a `fetch` API.
+- Execução via interface de linha de comando (CLI).
 
 ---
 
@@ -72,6 +79,13 @@ node rotaServer.js
 cd projeto02
 npm install
 npm start
+```
+
+**Projeto 04:**
+```bash
+cd projeto04
+npm install
+node cli.js arquivos/lista.md
 ```
 
 ---
