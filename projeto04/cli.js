@@ -13,12 +13,12 @@ if (!entrada) {
     const links = await pegaLinks(entrada);
     const resultados = await validaLinks(links);
 
-    console.log(chalk.blue('\n🔎 Resultado:\n'));
+    console.log(chalk.blue('\nResultado:\n'));
 
     resultados.forEach((item) => {
       console.log(item.url);
       console.log('→', item.mensagem);
-      console.log('-------------------');
+      console.log('----------------------------------');
     });
 
   } catch (erro) {

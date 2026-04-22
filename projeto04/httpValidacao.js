@@ -3,7 +3,7 @@ import chalk from 'chalk';
 
 function traduzStatus(status) {
   if (status === 200) {
-    return chalk.green('Site Operando Normalmente!');
+    return chalk.green('Site no ar e operante!');
   }
 
   if (status === 400 || status === 404) {
@@ -11,7 +11,7 @@ function traduzStatus(status) {
   }
 
   if (status === 500) {
-    return chalk.yellow('Erro no servidor do site verifique se esta correto as informações.');
+    return chalk.yellow('Erro interno no servidor do site.');
   }
 
   return chalk.gray(`Status: ${status}`);
@@ -35,7 +35,7 @@ export async function validaLinks(lista) {
       resultados.push({
         url,
         status: 'erro',
-        mensagem: chalk.red('Não encontrado ou erro de rede.')
+        mensagem: chalk.red(' Domínio inexistente ou erro de rede.')
       });
     }
   }

@@ -1,11 +1,11 @@
 {
-  "name": "projeto03",
+  "name": "projeto04",
   "version": "1.0.0",
   "description": "Sistema de validação de links em arquivos usando fetch e tratamento de erros.",
-  "main": "app.js",
+  "main": "cli.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "start": "node cli.js"
   },
   "author": "Emilly Budri Bognar",
   "license": "ISC",
