@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nome": "Smartphone Galaxy S23",
+    "preco": 4500.00,
+    "quantidade": 15
+  },
+  {
+    "id": 2,
+    "nome": "Notebook Dell XPS 13",
+    "preco": 8500.00,
+    "quantidade": 8
+  },
+  {
+    "id": 3,
+    "nome": "Monitor LG UltraWide 29",
+    "preco": 1200.00,
+    "quantidade": 20
+  },
+  {
+    "id": 4,
+    "nome": "Teclado Mecânico Keychron",
+    "preco": 600.00,
+    "quantidade": 12
+  }
+]
